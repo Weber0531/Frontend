@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+img{
+    border:5px solid black;
+}
+
+p{
+    color:red;
+    font-size: 16px;
+}
+
+.style1{
+    color:brown;
+}
+li{
+    color:purple;
+}
+
+a{
+    color:black;
+}

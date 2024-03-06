@@ -1,0 +1,42 @@
+/*
+選擇器{
+    屬性：設定值;
+}
+*/
+/*標籤選擇器*/
+h1{
+    border: 1px solid blue;/* 線條粗細 線條樣式 顏色 */
+    border-left: 5px dotted red;/* 線條粗細 線條樣式 顏色 */
+    border-bottom: 5px dashed pink;/* 線條粗細 線條樣式 顏色 */
+}
+p{
+    color:red;
+    font-size: 16px;
+    font-family: verdana;/*網站常用字型*/
+    line-height: 1.5;/*16*1.5=24，也可寫24px*/
+    text-align: left;
+    text-indent: 32px;/*首行縮排，一個字16px，兩個32*/
+    text-decoration: underline;
+}
+
+li{
+    color:purple;
+}
+
+a{
+    color:black;
+}
+/*自訂樣式 類別選擇器*/
+.style1{
+    color:brown;
+}
+/*擬態選擇器*/
+/*滑鼠滑過去*/
+a:hover{
+    color:aqua;
+    font-size: 20px;
+}
+/*按住不放*/
+a:active{
+    color:red;
+}
