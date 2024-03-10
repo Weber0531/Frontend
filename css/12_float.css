@@ -52,23 +52,39 @@ table {
     width: 1000px;
 }
 
+.header{
+    background: red;
+    width:1000px;
+    height: 50px;
+}
+
 .box1{
     width: 200px;
-    height: 200px;
+    height: 50px;
     background: black;
     float: left;
 }
 
 .box2{
     width: 500px;
-    height: 200px;
+    height: 50px;
     background: pink;
     float: left;
 }
 
 .box3{
     width: 300px;
-    height: 200px;
+    height: 50px;
     background: blue;
     float: left;
+}
+
+.clearfix{/*在最後一個float後面下*/
+    clear: both;
+}
+
+.footer{
+    background: gray;
+    width:1000px;
+    height: 50px;
 }
