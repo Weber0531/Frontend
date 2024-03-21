@@ -47,44 +47,42 @@ table {
 	border-spacing: 0;
 }
 /* my css */
-.product{
-    width: 600px;
+.box{
+    width: 1500px;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat-x;/*將圖片重複顯示*/
+    background-color: #62c6a0;/*背景圖案在上面，背景顏色在最下面做延伸*/
+    float:left;
 }
 
-.product li{
-    float: left;
-    width: 128px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: relative;
+.box h2{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-top: 80px;
 }
 
-.product .sale{
-    background: red;
-    color:white;
+.box2{
+    width: 700px;
+    height: 700px;
+    background-image: url(../img/head.jpg);
+    background-repeat: no-repeat;
+    background-color: red;
+    background-position: right bottom;
     position: absolute;
-    top: 0;
-    left: 0;
-    padding: 8px;
+    right: 0;
 }
 
-.product img{
-    width: 100%;
-    margin-bottom: 10px;
+.box2 p{
+    font-size: 36px;
 }
 
-.product h2{
-    color: blue;
-    font-weight: bold;
-    margin-bottom: 20px;
+.box3{
+    width: 700px;
+    height: 700px;
+    background: url(../img/head.jpg) no-repeat  red right bottom;/*也可寫在一行*/
 }
 
-.product span{
-    font-size: 20px;
-    color: red;
+.clearfix{
+    clear: both;
 }

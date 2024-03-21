@@ -47,44 +47,20 @@ table {
 	border-spacing: 0;
 }
 /* my css */
-.product{
-    width: 600px;
+.price th, .price td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.product li{
-    float: left;
-    width: 128px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: relative;
-}
-
-.product .sale{
-    background: red;
-    color:white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 8px;
-}
-
-.product img{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.product h2{
-    color: blue;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.product span{
+.price th{
+    padding: 10px;
     font-size: 20px;
-    color: red;
+    background-color: gray;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price td{
+    padding: 10px;
+    text-align: center;
 }

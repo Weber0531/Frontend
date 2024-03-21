@@ -47,44 +47,16 @@ table {
 	border-spacing: 0;
 }
 /* my css */
-.product{
-    width: 600px;
+.header h1{
+    float:left;
 }
 
-.product li{
-    float: left;
-    width: 128px;
-    height: 200px;
-    border: 1px solid;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: relative;
-}
-
-.product .sale{
-    background: red;
-    color:white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 8px;
-}
-
-.product img{
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.product h2{
-    color: blue;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.product span{
-    font-size: 20px;
-    color: red;
+.header h1 a{
+    background-image: url(../img/head.jpg);
+    width: 408px;
+    height: 558px;
+    display: block;
+    text-indent: 101%;/* 首行縮排101% */
+    overflow: hidden;/* 超過寬度的就隱藏起來 */
+    white-space: nowrap;/* 讓字不斷行 */
 }

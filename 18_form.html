@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/18_form.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+</head>
+<body>
+    <form action="18_form.html">
+        <label for="mail">電子郵件：</label>
+        <input id="mail" type="text" placeholder="請輸入電子郵件" name="mail"> <!-- id取名跟name一樣-->
+        <h2>性別</h2>
+        <input type="radio" name="gender" value="male">男生<!-- radio適用於單選-->
+        <input type="radio" name="gender" value="female">女生
+        <h2>興趣</h2>
+        <input type="checkbox" name="hobby" value="movie">看電影<!-- checkbox適用於多選-->
+        <input type="checkbox" name="hobby" value="music">聽音樂
+        <input type="checkbox" name="hobby" value="basketball">打球
+        <br>
+        <label for="birth">生日：</label>
+        <select name="birth" id="birth">
+            <option value="2002">2002</option>
+            <option value="2002">2003</option>
+        </select>
+        <h2>內容</h2>
+        <textarea name="content" id="" cols="30" rows="10"></textarea>
+        <button class="pure-button pure-button-primary">A Pure Button</button>
+        <br>
+        <input type="submit" value="送出">
+    </form>
+</body>
+</html>
