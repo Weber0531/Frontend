@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide&fade</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../js/02_slide&fade.js"></script>
+    <style>
+        .message{
+            display: none;
+        }
+
+        .text{
+            opacity: 0;
+            transition: all 3s;/* 三秒顯示出來或關閉 */
+        }
+
+        .text.active{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" value="留言down" class="button1">
+    <input type="button" value="留言up" class="button2">
+    <input type="button" value="留言slidetoggle" class="button3">
+    <input type="button" value="留言in" class="button4">
+    <input type="button" value="留言out" class="button5">
+    <input type="button" value="留言fadetoggle" class="button6">
+    <input type="button" value="啟動" class="start">
+    <div class="message">
+        <textarea name="" id="" cols="30" rows="20"></textarea>
+        <input type="submit" value="送出">
+    </div>
+    <input type="button" value="留言addClass" class="button7">
+    <input type="button" value="留言removeClass" class="button8">
+    <input type="button" value="留言toggleClass" class="button9">
+    <div class="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="送出">
+    </div>
+</body>
+</html>
