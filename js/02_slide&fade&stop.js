@@ -24,8 +24,9 @@ $(document).ready(function(){
     });
 
     $('.start').click(function(event) {
-        $('.message').slideDown(3000).fadeOut().slideToggle()
+        $('.message').slideDown(3000).fadeOut().slideToggle();
     })
+    
     // css寫法
     $('.button7').click(function(event){
         $('.text').addClass('active'); //add class="text active"
@@ -38,4 +39,9 @@ $(document).ready(function(){
     $('.button9').click(function(event){
         $('.text').toggleClass('active');
     });
+
+    //stop語法
+    $('.stop').click(function(event) {
+        $('.box').stop().slideToggle(5000);
+    })
 })

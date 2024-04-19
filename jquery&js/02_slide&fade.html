@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slide&fade</title>
+    <title>slide&fade&stop</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="../js/02_slide&fade.js"></script>
+    <script src="../js/02_slide&fade&stop.js"></script>
     <style>
         .message{
             display: none;
@@ -18,6 +18,12 @@
 
         .text.active{
             opacity: 1;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
         }
     </style>
 </head>
@@ -33,6 +39,7 @@
         <textarea name="" id="" cols="30" rows="20"></textarea>
         <input type="submit" value="送出">
     </div>
+
     <input type="button" value="留言addClass" class="button7">
     <input type="button" value="留言removeClass" class="button8">
     <input type="button" value="留言toggleClass" class="button9">
@@ -40,5 +47,8 @@
         <textarea name="" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="送出">
     </div>
+
+    <input type="button" value="可途中變換" class="stop">
+    <div class="box"></div>
 </body>
 </html>

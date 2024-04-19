@@ -16,4 +16,10 @@ $(document).ready(function() {
         event.preventDefault();
         $('.content p').css("font-size","13px");
     });
+
+    // 關閉效果
+    $('.ad-close').click(function(event) {
+        event.preventDefault();
+        $('.ad').hide();
+    });
 })
