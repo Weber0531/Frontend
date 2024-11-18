@@ -5,3 +5,5 @@ $(document).ready(function() {
         $('.dropdown-open').slideToggle();
     });
 })
+
+const el = document.querySelector('li');
